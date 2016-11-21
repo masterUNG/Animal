@@ -7,5 +7,6 @@
     <dimen name="h2">30sp</dimen>
     <dimen name="margin">60dp</dimen>
     <dimen name="height">150dp</dimen>
+    <dimen name="icon">150dp</dimen>
 
 </resources>
