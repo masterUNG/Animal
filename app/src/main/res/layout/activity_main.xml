@@ -12,7 +12,7 @@
     android:background="@drawable/egg">
 
     <TextView
-        android:text="TextView"
+        android:text="@string/titleMain"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView"
@@ -44,7 +44,8 @@
                 android:textSize="@dimen/h2"
                 android:textStyle="normal|bold"
                 android:textColor="@color/aText"
-                android:gravity="center_horizontal" />
+                android:gravity="center_horizontal"
+                android:clickable="true" />
 
             <TextView
                 android:text="@string/cat2"
@@ -55,7 +56,8 @@
                 android:textSize="@dimen/h2"
                 android:textStyle="normal|bold"
                 android:textColor="@color/aText"
-                android:gravity="center_horizontal" />
+                android:gravity="center_horizontal"
+                android:clickable="true" />
         </LinearLayout>
 
         <LinearLayout
@@ -73,7 +75,8 @@
                 android:textSize="@dimen/h2"
                 android:textStyle="normal|bold"
                 android:textColor="@color/aText"
-                android:gravity="center_horizontal" />
+                android:gravity="center_horizontal"
+                android:clickable="true" />
 
             <TextView
                 android:text="@string/cat4"
@@ -84,7 +87,8 @@
                 android:textSize="@dimen/h2"
                 android:textStyle="normal|bold"
                 android:textColor="@color/aText"
-                android:gravity="center_horizontal" />
+                android:gravity="center_horizontal"
+                android:clickable="true" />
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>
